@@ -1,0 +1,50 @@
+.cdopt-table {
+	max-width: 960px;
+}
+
+.cdopt-table td {
+	vertical-align: middle;
+}
+
+.cdopt-table__handle,
+.cdopt-row__handle {
+	width: 24px;
+}
+
+.cdopt-row__handle {
+	cursor: move;
+	color: #787c82;
+}
+
+.cdopt-row__center {
+	text-align: center;
+}
+
+.cdopt-row__actions {
+	white-space: nowrap;
+	text-align: right;
+}
+
+.cdopt-row.is-dragging {
+	opacity: 0.5;
+}
+
+.cdopt-table .regular-text {
+	width: 100%;
+	max-width: 25em;
+}
+
+.cdopt-support {
+	max-width: 960px;
+	margin: 32px 0 0;
+	padding: 4px 20px 12px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #2271b1;
+}
+
+.cdopt-support__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}

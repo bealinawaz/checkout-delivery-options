@@ -1,0 +1,27 @@
+.cdopt-checkout {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.cdopt-field {
+	border: 0;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	min-width: 0;
+}
+
+.cdopt-field__legend {
+	padding: 0;
+	margin-bottom: 0.5em;
+}
+
+.cdopt-field__choice {
+	display: block;
+	margin: 0.25em 0;
+	cursor: pointer;
+}
+
+.cdopt-field__choice .input-radio {
+	margin-right: 0.5em;
+}
